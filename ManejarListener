@@ -1,0 +1,6 @@
+Comprobar su estado:
+lsnrctl status
+Parar el listener:
+lsnrctl stop
+Levantar el listener:
+lsnrctl start
