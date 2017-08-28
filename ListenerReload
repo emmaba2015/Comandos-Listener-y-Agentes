@@ -1,0 +1,8 @@
+-- Para tomar los cambios en la configuración del listener sin tener q bajar y subir el mismo.
+
+LSNRCTL> reload
+
+-- Para ver todos los parametros actuales del listener
+
+LSNRCTL> show
+
