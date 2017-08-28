@@ -1,0 +1,20 @@
+-- Para ingresar al Listener
+
+lsnrctl
+
+-- Ayuda dentro del Listener
+
+LSNRCTL> help
+
+-- Ver version
+
+LSNRCTL> version
+
+-- Para ver todos los servicios disponibles
+
+LSNRCTL> services
+
+-- Para salir de la utilidad del Listener
+
+LSNRCTL> quit o exit
+
