@@ -1,0 +1,36 @@
+-- El comando SET sirve para cambiar algunas configuraciones del LISTENER, sintaxis del comando:
+
+LSNRCTL> SET parameter
+
+-- Ver podas las configuraciones
+
+LSNRCTL> SET
+
+-- SET CURRENT_LISTENER : Para cambiar el nombre del LISTENER
+
+LSNRCTL> SET CURRENT_LISTENER listener_name
+
+-- SET DISPLAYMODE : Para cambiar el formato y el nivel de detalle de los comandos SERVICES y STATUS.
+
+LSNRCTL> SET DISPLAYMODE {compat | normal | verbose | raw}
+
+-- SET INBOUND_CONNECT_TIMEOUT: Para especificar el tiempo, en segundos, para que el cliente complete sus conexiones con el LISTENER.
+
+LSNRCTL> SET INBOUND_CONNECT_TIMEOUT time
+
+-- SET LOG_DIRECTORY: Para establecer el directorio de destino en el que está escrito el archivo de registro del LISTENER.
+
+LSNRCTL> SET LOG_DIRECTORY directory
+
+-- SET LOG_FILE: Para establecer el nombre del archivo de Log del LISTENER:
+
+LSNRCTL> SET LOG_FILE file_name
+
+-- SET LOG_STATUS: Para activar o desactivar el registro del LISTENER.
+
+LSNRCTL> SET LOG_STATUS {on | off}
+
+SET SAVE_CONFIG_ON_STOP: 
+
+
+Fuente: https://docs.oracle.com/database/121/NETRF/lsnrctl.htm#NETRF124
