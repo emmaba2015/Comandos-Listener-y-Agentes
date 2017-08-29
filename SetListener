@@ -32,5 +32,21 @@ LSNRCTL> SET LOG_STATUS {on | off}
 
 SET SAVE_CONFIG_ON_STOP: 
 
+LSNRCTL> SET SAVE_CONFIG_ON_STOP  {on | off}
+
+SET TRC_DIRECTORY: Para establecer el directorio de destino en el que se escriben los archivos de Trace.
+
+LSNRCTL> SET TRC_DIRECTORY directory
+
+SET TRC_FILE: Para establecer el nombre del archivo Trace.
+
+LSNRCTL> SET TRC_FILE file_name
+
+SET TRC_LEVEL: Para establecer un nivel específico de traicing para el LISTENER.
+
+LSNRCTL> SET TRC_LEVEL level
+
+
+
 
 Fuente: https://docs.oracle.com/database/121/NETRF/lsnrctl.htm#NETRF124
